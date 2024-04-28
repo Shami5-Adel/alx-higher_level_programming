@@ -1,9 +1,3 @@
-#!/bin/bash
-
-# Get the filename of the Python script
-filename = $PYFILE
-
-# Compile the Python script and output the bytecode to $filenamec
-python3 - m py_compile "$filename" - o "${filename}c"
-
-echo "Compiling $filename ..."
+#!/usr/bin/python3
+def magic_calculation(a, b):
+    return a ** b + 98
